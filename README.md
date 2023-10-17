@@ -73,9 +73,11 @@ Additional features and placeholders for future expansion:
 <h2 align="center">Getting Started 🚀</h2>
 
 To utilize this project, follow these steps:
-
-1. **Install Dependencies:**
+1. **Adding The API kay:**
+   - Add your Github API key in the github\src\api.py
+2. **Install Dependencies:**
    - Ensure you have the `GitPython` and `Requests` libraries installed. You can install them using `pip`:
 
    ```bash
    pip install GitPython requests
+   
