@@ -28,7 +28,7 @@ root_logger = logging.getLogger()
 root_logger.addHandler(console_handler)
 
 # GitHub username and personal access token
-username = "Enter Your username"
+username = input("Enter Your username")
 token = access_token
 
 user_api_url = f"https://api.github.com/users/{username}"
